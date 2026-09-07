@@ -33,3 +33,13 @@ Claude Code can query the same failure data and trigger fixes on demand.
 
 **Process Flow:**
 ![Amazon SNS Setup Guide](Gitlab-troubleshoot.png)
+
+---
+
+### 3. Automated Multi-Agent Code Reviewer
+An intelligent .NET 9 background/service application that automates code reviews and architectural audits for GitLab merge requests using multi-agent Microsoft Semantic Kernel orchestration. It fetches merge request details and code diffs via the GitLab REST API, then routes the code through a sequential multi-agent pipeline: a Security Auditor for vulnerability and secret detection (OWASP Top 10), an Architecture Compliance checker for Clean Architecture and design patterns, and a Refactor & Test Generator to produce C# refactoring recommendations and xUnit unit test stubs. The orchestration compiles everything into a comprehensive Markdown review report, with optional automated comment posting back to the GitLab merge request.
+
+**Stack:** C# · .NET 9 · Microsoft Semantic Kernel · GitLab REST API · xUnit
+
+**Process Flow:**
+![Amazon SNS Setup Guide](CicdAgentCopilot.png)
