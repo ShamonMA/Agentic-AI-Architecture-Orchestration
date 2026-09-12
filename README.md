@@ -32,7 +32,7 @@ Claude Code can query the same failure data and trigger fixes on demand.
 **Stack:** C# · ASP.NET Core (.NET 8) · OpenAI API (function calling) · ModelContextProtocol.AspNetCore · GitLab REST API v4
 
 **Process Flow:**
-![Amazon SNS Setup Guide](Gitlab-troubleshoot.png)
+![Gitlab-troubleshoot](Gitlab-troubleshoot.png)
 
 ---
 
@@ -42,4 +42,19 @@ An intelligent .NET 9 background/service application that automates code reviews
 **Stack:** C# · .NET 9 · Microsoft Semantic Kernel · GitLab REST API · xUnit
 
 **Process Flow:**
-![Amazon SNS Setup Guide](CicdAgentCopilot.png)
+![CicdAgentCopilot](CicdAgentCopilot.png)
+
+
+
+
+---
+
+### 4. Claude Code Level 1–5 Integration & .NET 9 Enterprise Architecture Workflow
+The architectural workflow outlines the sequential steps to set up and execute an enterprise-grade .NET 9 Web API template leveraging Vertical Slice Architecture, Domain-Driven Design, and Claude Code integration. It begins with Phase 1 by establishing the project root structure and agent-aware directory layout, followed by Phase 2 which configures global guardrails, lifecycle validation hooks, and database connectivity. Phase 3 introduces modular skill guides to automate feature scaffolding and adherence to naming conventions, while Phase 4 details the runtime execution process for launching Claude Code, running orchestration prompts, and performing automated, validated feature generation.
+
+**Process Flow:**
+![ClaudeCode-Integration](ClaudeCode-Integration.png)
+
+
+
+
